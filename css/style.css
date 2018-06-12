@@ -16,6 +16,7 @@ Author: themehippo.com
 
 body {
     font-family : 'Hind', sans-serif;
+    position: relative;
     font-size   : 15px;
     line-height : 1.8em;
     color       : #3d3d50;
@@ -66,6 +67,16 @@ h6 {
     font-size   : 15px;
     line-height : 1.5em;
     }
+
+.img-sign {
+    width: auto;
+    display: inline-block;
+    }
+
+.img-sign img {
+    width: 80%;
+    height: auto;
+}
 
 /* --------------------------------------
  * LINK STYLE
@@ -236,7 +247,7 @@ button:focus,
  *-------------------*/
 .section-wrapper {
     padding       : 50px;
-    border-bottom : 1px solid #eaeaea;
+    border-bottom : 0px solid #eaeaea;
     }
 
 @media (max-width : 480px) {
@@ -260,6 +271,10 @@ button:focus,
 /*-----------------------------
  * NAVIGATION & HEADER STYLE
  *-----------------------------*/
+
+.nav {
+
+    }
 
 .header {
     padding  : 20px !important;
@@ -533,6 +548,8 @@ button:focus,
         padding : 10px 20px;
         }
     }
+
+
 
 /* ---------------------------------------------- /*
  * Preloader
