@@ -253,7 +253,7 @@ button:focus,
 
 @media (max-width : 480px) {
     .section-wrapper {
-        padding : 50px 20px;
+        padding : 10px 20px;
         }
     }
 
@@ -590,3 +590,13 @@ button:focus,
     text-align : center;
     top        : 65%;
     }
+
+
+.typed-strings {
+    text-align: center;
+}
+
+#typed-size {
+    font-size: 20px;
+    margin-bottom: 5%;
+}

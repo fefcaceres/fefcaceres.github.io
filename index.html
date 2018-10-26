@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,6 +23,12 @@
     <!-- Style CSS -->
     <link href="css/style.css" rel="stylesheet">
 
+    <!-- typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+
+    <!--typed.js -->
+    <script src="/js/typed.js" type="text/javascript"></script>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -33,127 +40,151 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar">
 
 
-<div id="main-wrapper">
-<!-- Page Preloader -->
-<div id="preloader">
-    <div id="status">
-        <div class="status-mes"></div>
-    </div>
-</div>
-
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-
-            <a class="navbar-brand" href="/">fefcaceres</a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="/">Home</a></li>
-                <li><a href="/resume/">Resume</a></li>
-                <!-- <li><a href="/interests/">Interests</a></li> -->
-                <!-- <li><a href="/projects/">Projects</a></li> -->
-            </ul>
-        </div>
-    </div>
-</nav>
-
-
-<div class="columns-block container">
-<div class="left-col-block blocks">
-    <header class="header theiaStickySidebar">
-        <div class="profile-img">
-            <img src="img/img-profile.jpg" class="img-responsive" alt=""/>
-        </div>
-        <div class="content">
-            <h1>Fidel Flores Caceres</h1>
-            <span class="lead">CM student at Georgia Tech</span>
-
-            <div class="about-text">
-
-
+    <div id="main-wrapper">
+        <!-- Page Preloader -->
+        <div id="preloader">
+            <div id="status">
+                <div class="status-mes"></div>
             </div>
-
-
-
-
-            <ul class="social-icon">
-                <li><a href="https://www.facebook.com/fefcaceres" title="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-
-                <li><a href="https://twitter.com/fefcaceres"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-
-                <li><a href="https://www.linkedin.com/in/fefcaceres/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-
-                <li><a href="https://github.com/fefcaceres"><i class="fab fa-github" aria-hidden="true"></i></a></li>
-
-                <li><a href="https://open.spotify.com/user/fourthimpact?si=oAy2nwhPS0O8pqhvGt5C2g"><i class="fab fa-spotify" aria-hidden="true"></i></a></li>
-
-            </ul>
         </div>
 
-    </header>
-    <!-- .header-->
-</div>
-<!-- .left-col-block -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
 
-
-<div class="right-col-block blocks">
-<div class="theiaStickySidebar">
-<section class="section-wrapper section-interest gray-bg">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title">
-                    <h2>About</h2>
+                    <a class="navbar-brand" href="/">fefcaceres</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="/">Home</a></li>
+                        <li class=""><a href="/resume/">Resume</a></li>
+                        <li class=""><a href="/contact/">Contact</a></li>
+                        <!-- <li><a href="/interests/">Interests</a></li> -->
+                        <!-- <li><a href="/projects/">Projects</a></li> -->
+                    </ul>
                 </div>
             </div>
-        </div>
-        <!-- .row -->
+        </nav>
 
-        <div class="row">
-            <div class="col-md-12">
-                <div class="content-item">
 
-                    <p>Hi, I'm Fidel Flores Cáceres. I'm from San Salvador, El Salvador. I am currently pursuing a BS in Computational Media at the Georgia Institute of Technology with specializations in Intelligence and Interaction Design and Experimental Media. Besides programming, I enjoy cycling, playing racquetball, video gaming, reading up on tech articles, and learning!
-                    </p>
-
-                    <p>As far as programming goes, I’ve always been interested and immersed in technology. As a kid, I would spend hours on the computer just dissecting its components and figuring out how a computer works - from understanding what is a computer's BIOS to building a computer in class. It was all about the functionality and the hardware of a computer until I took my first programming class in 10th grade - an intermediate Java programming class. Little did I know that class would be the foundation for all of my future programming endeavors!</p>
-
-                    <div class="img-sign">
-                        <img src="img/signature.png" alt="" class="img-responsive"/></p>
+        <div class="columns-block container">
+            <div class="left-col-block blocks">
+                <header class="header theiaStickySidebar">
+                    <div class="profile-img">
+                        <img src="img/img-profile.jpg" class="img-responsive img-rounded" alt="" />
                     </div>
-                </div>
+                    <div class="content">
+                        <h1>Fidel Flores Caceres</h1>
+                        <span class="lead">CM student at Georgia Tech</span>
+
+                        <div class="about-text"></div>
+
+
+                        <ul class="social-icon">
+                            <li><a href="https://www.facebook.com/fefcaceres" title="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+
+                            <li><a href="https://twitter.com/fefcaceres"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+
+                            <li><a href="https://www.linkedin.com/in/fefcaceres/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+
+                            <li><a href="https://github.com/fefcaceres"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+
+                            <li><a href="https://open.spotify.com/user/fourthimpact?si=oAy2nwhPS0O8pqhvGt5C2g"><i class="fab fa-spotify" aria-hidden="true"></i></a></li>
+
+                        </ul>
+                    </div>
+
+                </header>
+                <!-- .header-->
             </div>
+            <!-- .left-col-block -->
+
+
+            <div class="right-col-block blocks">
+                <div class="theiaStickySidebar">
+
+                    <section class="section-about section-wrapper gray-bg">
+                        <div class="container-fluid">
+
+                            <!-- .row -->
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="content-item">
+
+
+                                        <center>
+                                            <div id="typed-size">
+                                                <div id="typed-strings">
+                                                    <p><strong>a Georgia Tech Student.</strong></p>
+                                                    <p><strong>a Cycling Enthusiast.</strong></p>
+                                                    <p><strong>a Pug Lover.</strong></p>
+                                                    <p><strong>an Android Developer.</strong></p>
+                                                    <p><strong>an Overwatch Gamer.</strong></p>
+                                                    <p><strong>a UI Designer.</strong></p>
+                                                    <p><strong>a Web Developer.</strong></p>
+                                                </div>
+
+                                                Hi! I'm Fidel. And I'm <span id="typed"></span>
+
+                                            </div>
+
+                                        </center>
+
+                                        <script>
+                                            var typed = new Typed('#typed', {
+                                                stringsElement: '#typed-strings',
+                                                typeSpeed: 60,
+                                                backSpeed: 60,
+                                                backDelay: 1000,
+                                                shuffle: true
+                                            });
+                                        </script>
+
+                                        <p>I'm from San Salvador, El Salvador. I am currently pursuing a BS in Computational Media at the Georgia Institute of Technology with specializations in Intelligence and
+                                            Interaction Design and Experimental Media. Besides programming, I enjoy cycling, playing racquetball, video gaming, reading up on tech articles, and learning!
+                                        </p>
+
+                                        <p>As far as programming goes, I’ve always been interested and immersed in technology. As a kid, I would spend hours on the computer just dissecting its components and figuring out how a computer works - from
+                                            understanding what is a computer's BIOS to building a computer in class. It was all about the functionality and the hardware of a computer until I took my first programming class in 10th grade - an
+                                            intermediate Java programming class. Little did I know that class would be the foundation for all of my future programming endeavors!</p>
+
+                                        <div class="img-sign">
+                                            <img src="img/signature.png" alt="" class="img-responsive" /></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- .row -->
+                        </div>
+                    </section>
+                    <!-- .about-wrapper -->
+
+
+                    <!-- insert other stuff here -->
+
+
+                </div>
+                <!-- Sticky -->
+            </div>
+            <!-- .right-col-block -->
         </div>
-        <!-- .row -->
+        <!-- .columns-block -->
     </div>
-</section>
+    <!-- #main-wrapper -->
 
-<!-- .about-wrapper -->
+    <!-- jquery -->
+    <script src="js/jquery-2.1.4.min.js"></script>
 
-<!-- insert other stuff here -->
-
-<!-- .footer -->
-</div>
-<!-- Sticky -->
-</div>
-<!-- .right-col-block -->
-</div>
-<!-- .columns-block -->
-</div>
-<!-- #main-wrapper -->
-
-<!-- jquery -->
-<script src="js/jquery-2.1.4.min.js"></script>
-
-<!-- Bootstrap -->
-<script src="js/bootstrap.min.js"></script>
-<script src="js/theia-sticky-sidebar.js"></script>
-<script src="js/scripts.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/theia-sticky-sidebar.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
+
 </html>
