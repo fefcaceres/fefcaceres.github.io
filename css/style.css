@@ -593,7 +593,7 @@ button:focus,
 
 
 
-#typed-size {
+.typed-size {
     font-size: 20px;
     margin-bottom: 5%;
 }
