@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
 
     <!-- font-awesome -->
-    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -23,11 +23,9 @@
     <!-- Style CSS -->
     <link href="css/style.css" rel="stylesheet">
 
-    <!-- typed.js -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
-
-    <!--typed.js -->
     <script src="/js/typed.js" type="text/javascript"></script>
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -115,48 +113,55 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="content-item">
-
-
-                                        <center>
-                                            <div id="typed-size">
-                                                <div id="typed-strings">
-                                                    <p><strong>a Georgia Tech Student.</strong></p>
-                                                    <p><strong>a Cycling Enthusiast.</strong></p>
-                                                    <p><strong>a Pug Lover.</strong></p>
-                                                    <p><strong>an Android Developer.</strong></p>
-                                                    <p><strong>an Overwatch Gamer.</strong></p>
-                                                    <p><strong>a UI Designer.</strong></p>
-                                                    <p><strong>a Web Developer.</strong></p>
-                                                </div>
-
-                                                Hi! I'm Fidel. And I'm <span id="typed"></span>
-
-                                            </div>
-
-                                        </center>
-
-                                        <script>
+                                        <center><span id="introSize">Hi. I'm Fidel. And I'm</span>
+                                            <span id="typed"></span></center>
+                                        <script type="text/javascript">
                                             var typed = new Typed('#typed', {
-                                                stringsElement: '#typed-strings',
-                                                typeSpeed: 80,
-                                                backSpeed: 80,
-                                                backDelay: 1000
+                                                strings: [
+                                                    "a Georgia Tech Student.",
+                                                    "a Cycling Enthusiast.",
+                                                    "a Pug Lover.",
+                                                    "an Android Developer.",
+                                                    "an Overwatch Gamer.",
+                                                    "a UI Designer.",
+                                                    "a Web Developer."
+                                                ],
+                                                typeSpeed: 70,
+                                                backSpeed: 90,
+                                                backDelay: 1200,
+                                                smartBackspace: true,
+                                                loop: true,
+                                                loopCount: Infinity,
+                                                shuffle: true
                                             });
                                         </script>
+                                        <p></p>
 
 
                                         <div id="about-me">
 
                                             <p>I was born in the smallest country in Central America in a city called <a href="https://tinyurl.com/y9ruhmc6">San Salvador</a>. (Fun fact: when I was a kid we used to live in front of a volcano).</p>
 
-                                            <p>I work as a student web developer and designer for the <a href="http://expressivemachinery.gatech.edu">Expressive Machinery Lab</a> under Dr. Brian Magerko. I also manage the <a href="https://dm.lmc.gatech.edu/">Digital Media's</a> Masters Program website and help around the department.</p>
+                                            <p>I work as a student web developer and designer for the <a href="http://expressivemachinery.gatech.edu">Expressive Machinery Lab</a> under Dr. Brian Magerko. I also manage the <a href="https://dm.lmc.gatech.edu/">Digital
+                                                    Media's</a> Masters Program website and help around the department.</p>
 
                                             <p>I’m also a Computational Media undergrad at Georgia Tech focusing my studies on artificial intelligence, interaction design, and game studies.</p>
 
-                                            <p>I'm passionate and interested in collaborative projects that help provide simple yet effective solutions to everyday problems. This just makes life a little less stressful and a bit more fun. I'm currently developing with my android dev team (we call ourselves The Binary Bros) a <a href="https://github.com/jmiano/CS2340-Project">donation tracking app</a> to help non-profits track incoming and outgoing donations!</p>
+                                            <p>I'm passionate and interested in collaborative projects that help provide simple yet effective solutions to everyday problems. This just makes life a little less stressful and a bit more fun. I'm
+                                                currently developing with my android dev team (we call ourselves The Binary Bros) a <a href="https://github.com/jmiano/CS2340-Project">donation tracking app</a> to help non-profits track incoming and
+                                                outgoing donations!</p>
 
-                                            <p>When I’m not studying or working, I like to <a href="https://tinyurl.com/y9hnuu3b">ride my bike</a> around the city, get some <a href="https://tinyurl.com/y8w56efb">sick POTG shots</a> in Overwatch, and <a href="https://tinyurl.com/y83e2ah5">listen and chill</a> to The Weeknd.</p>
+                                            <p>When I’m not studying or working, I like to <a href="https://tinyurl.com/y9hnuu3b">ride my bike</a> around the city, get some <a href="https://tinyurl.com/y8w56efb">sick POTG shots</a> in Overwatch, and
+                                                <a href="https://tinyurl.com/y83e2ah5">listen and chill</a> to The Weeknd.</p>
+
+
+
                                         </div>
+
+                                        <div id="emojis"><i class="fas fa-utensils"></i>
+                                            <i class="fas fa-bed"></i>
+                                            <i class="fas fa-code"></i>
+                                            <i class="far fa-smile-wink"></i></div>
 
 
                                     </div>
