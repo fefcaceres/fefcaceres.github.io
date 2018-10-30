@@ -461,7 +461,9 @@ button:focus,
 .portfolio-item .portfolio-info h3 {
     margin      : 0;
     line-height : 1;
-    color       : #ffffff;
+    color       : #ffc107;
+    font-weight: bold;
+    margin-bottom: 10px;
     }
 
 .portfolio-item .portfolio-info small {
