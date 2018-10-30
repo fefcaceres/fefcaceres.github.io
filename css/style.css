@@ -105,7 +105,7 @@ a:focus {
     }
 
 p {
-    margin-bottom : 20px;
+    margin-bottom : 10px;
     }
 
 ul {
@@ -247,8 +247,8 @@ button:focus,
  * Section Wrapper
  *-------------------*/
 .section-wrapper {
-    padding       : 50px;
-    border-bottom : 0px solid #eaeaea;
+    padding       : 40px;
+    border-bottom : 1px solid #eaeaea;
     }
 
 @media (max-width : 480px) {
@@ -311,7 +311,7 @@ button:focus,
     }
 
 .header .content .about-text {
-    margin : 10px 0;
+    margin : 10px 0px;
     }
 
 .header .btn {
@@ -613,4 +613,12 @@ button:focus,
 
 #introSize {
     font-size: 24px;
+}
+
+.resume-section {
+    border-bottom: 0px;
+}
+
+.left-side-wrapper {
+    text-align: center;
 }
