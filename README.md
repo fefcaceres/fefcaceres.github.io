@@ -1,1 +1,1 @@
-Personal website to showcase my various projects and experiences at Georgia Tech as well as to show some of my interests.
+Personal website to showcase my various projects and experiences at Georgia Tech as well as to show some of my interests
