@@ -262,16 +262,16 @@ button:focus,
 
 .section-title h2 {
     margin-bottom : 5px;
-    color         : #bebece;
+    color         : #ff9800;
     }
 
 /*-----------------------------
  * NAVIGATION & HEADER STYLE
  *-----------------------------*/
 
-.nav {
+/*.nav {
 
-    }
+    } */
 
 .header {
     padding  : 20px !important;
@@ -288,9 +288,9 @@ button:focus,
     opacity: 0.5;
 }
 
-.header .content-wrapper {
+/*.header .content-wrapper {
 
-    }
+    } */
 
 .header .content {
     width  : 100%;
@@ -498,6 +498,7 @@ button:focus,
     color : #888888;
     }
 
+
 /*-------------------
  * Contact
  *-------------------*/
@@ -613,10 +614,29 @@ button:focus,
     font-size: 24px;
 }
 
-.resume-section {
+.resume-section  {
+    border-bottom: 0px;
+}
+
+.bfcs-section {
     border-bottom: 0px;
 }
 
 .left-side-wrapper {
     text-align: center;
+}
+
+.iframe-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; 
+}
+
+.iframe-contain {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
