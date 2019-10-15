@@ -14,6 +14,8 @@ Author: themehippo.com
 # Mid grey (sub header) #f4f4f4
 # -------------------------------------------------------------------*/
 
+@import url('https://fonts.googleapis.com/css?family=Lato:700&display=swap');
+
 body {
     font-family : 'Hind', sans-serif;
     position: relative;
@@ -592,7 +594,8 @@ button:focus,
 
 #typed {
     font-size: 24px;
-    margin-bottom: 10%;
+    margin-bottom: 0%;
+    font-family: 'Lato', sans-serif;
 }
 
 #emojis {
@@ -608,6 +611,7 @@ button:focus,
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
+    font-family: 'Lato', sans-serif;
 }
 
 #introSize {
