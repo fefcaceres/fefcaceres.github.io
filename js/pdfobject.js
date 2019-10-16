@@ -230,7 +230,7 @@
             targetNode = getTargetElement(targetSelector),
             fallbackHTML = "",
             pdfOpenFragment = "",
-            fallbackHTML_default = "<p>This browser does not support inline PDFs. View the pdf <a href='[url]'>here</a></p> instead.";
+            fallbackHTML_default = "<p>This browser does not support inline PDFs. View the pdf <a href='[url]'>here</a>instead.</p>";
 
         //If target element is specified but is not valid, exit without doing anything
         if(!targetNode){ return embedError("Target element cannot be determined"); }
